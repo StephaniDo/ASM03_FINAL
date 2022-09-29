@@ -1,0 +1,123 @@
+@media (min-width: 768px) and (max-width: 1180px) {
+  /* nav */
+  .text-nav,
+  .avt-banner {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 30px 10px;
+    margin-right: 1rem;
+  }
+  .tablet-job-infor {
+    border-right: 1px solid #f783ac39;
+  }
+  #navbar {
+    margin: 20px;
+  }
+  /* Thong tin ca nhan + muc tieu nghe nghiep */
+  #media-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+  }
+  #target {
+    padding: 20px;
+    background-color: #e9ecef;
+  }
+  #personal-infor {
+    font-size: 16px;
+    padding: 20px;
+  }
+  /* Detail infor (kinh nghiệm, ...) */
+  #job-box-grid2 {
+    padding-bottom: 363px;
+  }
+  #job-box-grid3 {
+    padding-bottom: 414px;
+  }
+  #job-box-grid4 {
+    padding-bottom: 400px;
+  }
+
+  #job-box-grid5 {
+    padding-bottom: 416px;
+  }
+
+  #job-box-grid6 {
+    padding-bottom: 250px;
+  }
+
+  .job-title h1 {
+    font-size: 25px;
+  }
+  .job-content .mode {
+    font-size: 15px;
+  }
+  .job-content .mode-more {
+    font-size: 10px;
+  }
+
+  .favorite {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+  }
+  .favorite .ff,
+  .favorite .ss {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: left;
+  }
+  .favorite .ss p {
+    padding-top: 18px;
+  }
+  /* cert */
+  .cer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  /* project */
+  .pr-title {
+    font-size: 14px;
+  }
+
+  .pr-border {
+    font-size: 12px;
+  }
+
+  #now-content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  td {
+    font-size: 10px;
+  }
+  tr td:first-child {
+    width: 30%;
+  }
+
+  /* readmore */
+  #goal,
+  #team,
+  #scopes,
+  #primary,
+  #timeline {
+    margin: 0 20px;
+  }
+  #goal i {
+    float: left;
+  }
+  #team i {
+    float: left;
+  }
+  #primary i {
+    float: left;
+  }
+  svg {
+    float: left;
+    padding-right: 15px;
+  }
+}
